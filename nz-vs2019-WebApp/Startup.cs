@@ -34,6 +34,7 @@ namespace nz_vs2019_WebApp
                 {
                     await context.Response.WriteAsync("<h1>Hello World!<h1>");
                     await context.Response.WriteAsync("Welcome to my site.");
+                    await context.Response.WriteAsync("<p>Asp.NET Core Demo!");
                 });
             });
         }
